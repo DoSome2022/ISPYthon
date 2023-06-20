@@ -1,0 +1,22 @@
+a, b, c, d = 20, 5.5, True, 4+3j
+print(type(a), type(b), type(c), type(d))
+
+aa = 111
+print(isinstance(aa,int))
+
+
+class A:
+ pass
+
+class B(A):
+ pass
+
+print(isinstance(A(), A))
+print(type(A()) == A) 
+print(isinstance(B(), A))
+print(type(B()) == A)
+
+var1 = 1
+var2 = 10
+
+
